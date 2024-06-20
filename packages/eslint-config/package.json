@@ -24,9 +24,8 @@
   },
   "author": "tom-brulin",
   "license": "MIT",
-  "keywords": [
-    "eslint",
-    "eslint_config",
-    "tbrul"
-  ]
+  "keywords": ["eslint", "eslint_config", "tbrul"],
+  "publishConfig": {
+    "access": "public"
+  }
 }
