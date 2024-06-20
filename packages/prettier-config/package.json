@@ -1,7 +1,7 @@
 {
   "name": "@tbrul/prettier-config",
   "description": "Base Prettier config used by tbrul packages",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "index.json",
   "exports": {
     ".": "./index.json"
@@ -9,7 +9,10 @@
   "scripts": {},
   "author": "tom-brulin",
   "license": "MIT",
-  "keywords": ["prettier", "tbrul"],
+  "keywords": [
+    "prettier",
+    "tbrul"
+  ],
   "sideEffects": false,
   "publishConfig": {
     "access": "public"
