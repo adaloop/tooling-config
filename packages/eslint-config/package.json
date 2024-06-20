@@ -1,7 +1,7 @@
 {
   "name": "@tbrul/eslint-config",
   "description": "Base ESLint config used by tbrul packages",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "exports": {
     "./package": "./presets/ts_package.js"
   },
@@ -24,7 +24,11 @@
   },
   "author": "tom-brulin",
   "license": "MIT",
-  "keywords": ["eslint", "eslint_config", "tbrul"],
+  "keywords": [
+    "eslint",
+    "eslint_config",
+    "tbrul"
+  ],
   "publishConfig": {
     "access": "public"
   }
