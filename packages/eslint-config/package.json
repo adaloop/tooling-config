@@ -1,7 +1,7 @@
 {
   "name": "@tbrul/eslint-config",
   "description": "Base ESLint config used by tbrul packages",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "exports": {
     "./package": "./presets/ts_package.js"
   },

@@ -1,7 +1,7 @@
 {
   "name": "@tbrul/biome-config",
   "description": "Base Biome config used by tbrul packages",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "main": "index.json",
   "exports": {
     "./biome.package.json": "./biome.package.json"
