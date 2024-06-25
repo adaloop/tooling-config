@@ -1,7 +1,7 @@
 {
   "name": "@tbrul/tsconfig",
   "description": "Base Typescript configuration files for tbrul packages",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "author": "tom-brulin",
   "license": "MIT",
   "exports": {
