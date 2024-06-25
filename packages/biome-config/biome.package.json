@@ -1,0 +1,142 @@
+{
+  "$schema": "https://biomejs.dev/schemas/1.8.2/schema.json",
+  "organizeImports": {
+    "enabled": true
+  },
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "recommended": false,
+      "complexity": {
+        "noExtraBooleanCast": "error",
+        "noMultipleSpacesInRegularExpressionLiterals": "error",
+        "noWith": "error"
+      },
+      "correctness": {
+        "noConstantCondition": "error",
+        "noInnerDeclarations": "error",
+        "noSelfAssign": "error",
+        "noUnreachable": "error",
+        "noUnreachableSuper": "error",
+        "noUnsafeFinally": "error",
+        "useArrayLiterals": "error",
+        "useIsNan": "error"
+      },
+      "security": {
+        "noGlobalEval": "error"
+      },
+      "style": {
+        "useBlockStatements": "error",
+        "useFilenamingConvention": {
+          "level": "error",
+          "options": {
+            "requireAscii": true,
+            "filenameCases": [
+              "snake_case"
+            ]
+          }
+        },
+        "useForOf": "error",
+        "useNamingConvention": {
+          "level": "error",
+          "options": {
+            "strictCase": false,
+            "conventions": [
+              {
+                "selector": {
+                  "kind": "class"
+                },
+                "formats": [
+                  "PascalCase"
+                ]
+              },
+              {
+                "selector": {
+                  "kind": "variable"
+                },
+                "formats": [
+                  "camelCase",
+                  "PascalCase",
+                  "CONSTANT_CASE"
+                ]
+              },
+              {
+                "selector": {
+                  "kind": "typeLike"
+                },
+                "formats": [
+                  "PascalCase"
+                ]
+              }
+            ]
+          }
+        },
+        "useNodejsImportProtocol": "error",
+        "useNumberNamespace": "error",
+        "useSingleVarDeclarator": "error"
+      },
+      "suspicious": {
+        "noAssignInExpressions": "error",
+        "noCatchAssign": "error",
+        "noControlCharactersInRegex": "error",
+        "noDebugger": "error",
+        "noDoubleEquals": "error",
+        "noDuplicateCase": "error",
+        "noFallthroughSwitchClause": "error",
+        "noSelfCompare": "error",
+        "noUnsafeNegation": "error",
+        "useIsArray": "error",
+        "useValidTypeof": "error"
+      }
+    },
+    "ignore": [
+      "**/*.min.*",
+      "**/*.d.ts",
+      "**/CHANGELOG.md",
+      "**/dist",
+      "**/LICENSE*",
+      "**/output",
+      "**/coverage",
+      "**/temp",
+      "**/build",
+      "public/assets",
+      "**/pnpm-lock.yaml",
+      "**/yarn.lock",
+      "**/package-lock.json",
+      "**/__snapshots__"
+    ]
+  },
+  "overrides": [
+    {
+      "include": [
+        "*.ts",
+        "*.tsx"
+      ],
+      "linter": {
+        "rules": {}
+      }
+    }
+  ],
+  "formatter": {
+    "enabled": true,
+    "formatWithErrors": false,
+    "indentStyle": "space",
+    "indentWidth": 2,
+    "lineEnding": "lf",
+    "lineWidth": 100,
+    "attributePosition": "auto"
+  },
+  "javascript": {
+    "formatter": {
+      "jsxQuoteStyle": "double",
+      "quoteProperties": "asNeeded",
+      "trailingCommas": "es5",
+      "semicolons": "asNeeded",
+      "arrowParentheses": "always",
+      "bracketSpacing": true,
+      "bracketSameLine": false,
+      "quoteStyle": "single",
+      "attributePosition": "auto"
+    }
+  }
+}
