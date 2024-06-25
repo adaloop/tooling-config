@@ -1,6 +1,6 @@
-# @tbrul/prettier-config
+# @tbrul/biome-config
 
-The `@tbrul/prettier-config` package exports the base Biome configuration for tbrul packages.
+The `@tbrul/biome-config` package exports the base Biome configuration for tbrul packages.
 
 ## Installation
 
