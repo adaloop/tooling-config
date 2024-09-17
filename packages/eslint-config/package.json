@@ -1,6 +1,6 @@
 {
-  "name": "@tbrul/eslint-config",
-  "description": "Base ESLint config used by tbrul packages",
+  "name": "@adaloop/eslint-config",
+  "description": "Base ESLint config used by adaloop packages",
   "version": "1.0.6",
   "exports": {
     "./package": "./presets/ts_package.js"
@@ -22,12 +22,12 @@
     "eslint": "^8.57.0",
     "prettier": ">=3.0.0"
   },
-  "author": "tom-brulin",
+  "author": "adaloop <hello@adaloop.com>",
   "license": "MIT",
   "keywords": [
     "eslint",
     "eslint_config",
-    "tbrul"
+    "adaloop"
   ],
   "publishConfig": {
     "access": "public"

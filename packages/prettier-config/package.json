@@ -1,17 +1,17 @@
 {
-  "name": "@tbrul/prettier-config",
-  "description": "Base Prettier config used by tbrul packages",
+  "name": "@adaloop/prettier-config",
+  "description": "Base Prettier config used by adaloop packages",
   "version": "1.0.6",
   "main": "index.json",
   "exports": {
     ".": "./index.json"
   },
   "scripts": {},
-  "author": "tom-brulin",
+  "author": "adaloop <hello@adaloop.com>",
   "license": "MIT",
   "keywords": [
     "prettier",
-    "tbrul"
+    "adaloop"
   ],
   "sideEffects": false,
   "publishConfig": {

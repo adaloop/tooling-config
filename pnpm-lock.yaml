@@ -8,10 +8,10 @@ importers:
 
   .:
     devDependencies:
-      '@tbrul/eslint-config':
+      '@adaloop/eslint-config':
         specifier: workspace:*
         version: link:packages/eslint-config
-      '@tbrul/prettier-config':
+      '@adaloop/prettier-config':
         specifier: workspace:*
         version: link:packages/prettier-config
       bumpp:

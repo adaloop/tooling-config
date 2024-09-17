@@ -1,17 +1,17 @@
 {
-  "name": "@tbrul/tsconfig",
-  "description": "Base Typescript configuration files for tbrul packages",
+  "name": "@adaloop/tsconfig",
+  "description": "Base Typescript configuration files for adaloop packages",
   "version": "1.0.6",
-  "author": "tom-brulin",
-  "license": "MIT",
   "exports": {
     "./tsconfig.package.json": "./tsconfig.package.json",
     "./tsconfig.client.json": "./tsconfig.client.json"
   },
+  "author": "adaloop <hello@adaloop.com>",
+  "license": "MIT",
   "keywords": [
     "typescript",
     "tsconfig",
-    "tbrul"
+    "adaloop"
   ],
   "eslintConfig": {
     "ignorePatterns": [

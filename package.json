@@ -1,6 +1,6 @@
 {
-  "name": "@tbrul/tooling-config",
-  "description": "Tooling configs for trbul packages",
+  "name": "@adaloop/tooling-config",
+  "description": "Tooling configs for adaloop packages",
   "version": "1.0.6",
   "private": true,
   "scripts": {
@@ -9,14 +9,14 @@
     "format": "prettier --write ."
   },
   "devDependencies": {
-    "@tbrul/eslint-config": "workspace:*",
-    "@tbrul/prettier-config": "workspace:*",
+    "@adaloop/eslint-config": "workspace:*",
+    "@adaloop/prettier-config": "workspace:*",
     "bumpp": "^9.4.1",
     "eslint": "^8.57.0",
     "prettier": "^3.3.2",
     "typescript": "5.4.5"
   },
-  "author": "tom-brulin",
+  "author": "adaloop <hello@adaloop.com>",
   "license": "MIT",
   "keywords": [],
   "pnpm": {
@@ -29,10 +29,10 @@
     }
   },
   "eslintConfig": {
-    "extends": "@tbrul/eslint-config/package",
+    "extends": "@adaloop/eslint-config/package",
     "rules": {
       "unicorn/prefer-module": "off"
     }
   },
-  "prettier": "@tbrul/prettier-config"
+  "prettier": "@adaloop/prettier-config"
 }

@@ -1,17 +1,17 @@
-# @tbrul/biome-config
+# @adaloop/biome-config
 
-The `@tbrul/biome-config` package exports the base Biome configuration for tbrul packages.
+The `@adaloop/biome-config` package exports the base Biome configuration for adaloop packages.
 
 ## Installation
 
 Install the package as a development dependency from the npm packages registry.
 
 ```bash
-npm i -D @tbrul/biome-config
+npm i -D @adaloop/biome-config
 
-yarn add -D @tbrul/biome-config
+yarn add -D @adaloop/biome-config
 
-pnpm add -D @tbrul/biome-config
+pnpm add -D @adaloop/biome-config
 ```
 
 ## Usage
@@ -20,6 +20,6 @@ Add the following rule to your package biome config file.
 
 ```json
 {
-  "extends": "@tbrul/biome-config/package"
+  "extends": "@adaloop/biome-config/package"
 }
 ```

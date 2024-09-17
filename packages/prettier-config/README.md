@@ -1,17 +1,17 @@
-# @tbrul/prettier-config
+# @adaloop/prettier-config
 
-The `@tbrul/prettier-config` package exports the base Prettier configuration for tbrul packages.
+The `@adaloop/prettier-config` package exports the base Prettier configuration for adaloop packages.
 
 ## Installation
 
 Install the package as a development dependency from the npm packages registry.
 
 ```bash
-npm i -D @tbrul/prettier-config
+npm i -D @adaloop/prettier-config
 
-yarn add -D @tbrul/prettier-config
+yarn add -D @adaloop/prettier-config
 
-pnpm add -D @tbrul/prettier-config
+pnpm add -D @adaloop/prettier-config
 ```
 
 ## Usage
@@ -20,6 +20,6 @@ To enable these rules, add a `prettier` property in your `package.json` and refe
 
 ```json
 {
-  "prettier": "@tbrul/prettier-config"
+  "prettier": "@adaloop/prettier-config"
 }
 ```

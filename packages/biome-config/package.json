@@ -1,26 +1,26 @@
 {
-  "name": "@tbrul/biome-config",
-  "description": "Base Biome config used by tbrul packages",
+  "name": "@adaloop/biome-config",
+  "description": "Base Biome config used by adaloop packages",
   "version": "1.0.6",
   "main": "index.json",
   "exports": {
     "./biome.package.json": "./biome.package.json"
   },
   "scripts": {},
-  "author": "tom-brulin",
-  "license": "MIT",
-  "keywords": [
-    "biome",
-    "tbrul"
-  ],
-  "sideEffects": false,
-  "publishConfig": {
-    "access": "public"
-  },
   "devDependencies": {
     "@biomejs/biome": "1.8.2"
   },
   "peerDependencies": {
     "@biomejs/biome": ">=1.8.2"
+  },
+  "author": "adaloop <hello@adaloop.com>",
+  "license": "MIT",
+  "keywords": [
+    "biome",
+    "adaloop"
+  ],
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
   }
 }

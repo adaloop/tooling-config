@@ -1,7 +1,7 @@
-# @tbrul/tooling-config
+# @adaloop/tooling-config
 
 ## Introduction
 
-Tooling config for tbrul packages.
+Tooling config for adaloop packages.
 
-This repo is a monorepo workspace that store all the configuration presets used by tbrul packages.
+This repo is a monorepo workspace that store all the configuration presets used by adaloop packages.
