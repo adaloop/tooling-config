@@ -1,7 +1,7 @@
 {
   "name": "@adaloop/eslint-config",
   "description": "Base ESLint config used by adaloop packages",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "exports": {
     "./package": "./presets/ts_package.js"
   },

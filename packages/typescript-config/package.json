@@ -1,7 +1,7 @@
 {
   "name": "@adaloop/tsconfig",
   "description": "Base Typescript configuration files for adaloop packages",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "exports": {
     "./tsconfig.package.json": "./tsconfig.package.json",
     "./tsconfig.client.json": "./tsconfig.client.json"

@@ -1,7 +1,7 @@
 {
   "name": "@adaloop/prettier-config",
   "description": "Base Prettier config used by adaloop packages",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "main": "index.json",
   "exports": {
     ".": "./index.json"

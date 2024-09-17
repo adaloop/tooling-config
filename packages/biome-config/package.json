@@ -1,7 +1,7 @@
 {
   "name": "@adaloop/biome-config",
   "description": "Base Biome config used by adaloop packages",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "main": "index.json",
   "exports": {
     "./biome.package.json": "./biome.package.json"
